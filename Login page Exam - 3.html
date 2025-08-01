@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<style>
+		body {
+			
+			background: linear-gradient(to bottom, #afafcf, #efd18f);
+			height:  auto;
+			margin: auto;
+			font-family: sans-serif;
+			
+
+		}
+		div {
+			border: hidden;
+			width: 50vw;
+			height: 100vh;
+			background-color: white;
+			float: right;
+			line-height: 1.9;
+
+		}
+
+		form {
+			
+			padding: 80px 15px 230px 22px;
+
+		}
+
+		.box {
+			width: 350px;
+			height: 25px;
+
+		}
+
+		.button {
+			width: 360px;
+			height: 30px;
+			background-color: orangered;
+			color: white;
+			border: none;
+			border-radius: 4px;
+		}
+
+		.button:hover {
+			opacity: 0.8;
+		}
+
+		@media only screen and (max-width: 600px) {
+			body {
+				background: none;
+				overflow: hidden;
+				display: flex;
+
+			}
+		}
+
+		.bold {
+			width: 350px;
+			height: 25px;
+			
+		}
+
+		
+		
+	</style>
+</head>
+<body>
+	<div>
+
+		<form>
+
+		<h2 style="color: indianred;">Login form</h2>
+
+		<label for = "email"><b>Email:</b></label><br>
+		<input type="email" name="email" class="bold"><br>
+
+		<label for = "password"><b>Password:</b></label><br>
+		<input type="password" name="password" class="bold"><br>
+
+		<input type="checkbox" name="agree">
+		<label for = "agree">Remember me</label><br>
+
+		<input type="submit" name="submit" value="Login" class="button">
+
+		</form>
+		
+	</div>
+
+</body>
+</html>
